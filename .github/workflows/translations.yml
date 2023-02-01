@@ -24,7 +24,7 @@ jobs:
           echo 'The repo is currently frozen! Exiting this workflow.'
           exit 1 # prevents further steps from running
       - name: Find original Pull Request
-        uses: juliangruber/find-pull-request-action@04c456b69755854a3aba91d91126caa304af45f6
+        uses: juliangruber/find-pull-request-action@3a4c7c62101755c3778d397dcb6a760a558992f1
         id: pr
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
