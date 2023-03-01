@@ -25,7 +25,7 @@ jobs:
         run: rm .git/hooks/post-checkout
 
       - name: Sync
-        uses: crowdin/github-action@3461273fc0576cdc442472e6b8759769bf6383d7
+        uses: crowdin/github-action@37e7ee2f55c30ccc6d6064db2276c1c4294c9ad5
         with:
           # This option enables the transfer of existing translations in this project to Crowdin.
           # We explicitly set this to `false` since we only want to use the downloaded translations managed by Crowdin.
